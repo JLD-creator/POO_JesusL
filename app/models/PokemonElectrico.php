@@ -29,7 +29,7 @@ class PokemonElectrico extends Pokemon{
     }
     public function cargar(int $energia): void
     {
-        echo $this->nombre ."está cargando energía...";
+        echo $this->nombre ." está cargando: ".$energia. " de energía.";
     }
 
     public function __tostring(){

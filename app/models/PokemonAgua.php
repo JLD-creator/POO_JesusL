@@ -28,7 +28,7 @@ class PokemonAgua extends Pokemon{
         return $this;
     }
     public function nadar(): void {
-        echo $this->nombre ."está nadando bajo el agua...";
+        echo $this->nombre ." está nadando bajo el agua.";
     }
 
     public function __tostring(){

@@ -101,7 +101,7 @@ abstract class Pokemon
             // Aumentamos la vida al evolucionar
             $this->vida += 20;
 
-            echo $this->nombre . " ha evolucionado! 🎉<br>";
+            echo" Pikachu  ha evolucionado ". $this->nombre . " 🎉<br>";
         } else {
             echo $this->nombre . " no puede evolucionar en este momento.<br>";
         }

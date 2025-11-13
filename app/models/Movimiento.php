@@ -53,13 +53,13 @@ class Movimiento
     // Método para ejecutar el movimiento
     public function ejecutar(): void
     {
-        echo "El movimiento ".$this->nombre." se ha ejecutado y ha causado". $this->poder." de daño.";
+        echo "El movimiento ".$this->nombre." se ha ejecutado y ha causado ". $this->poder." de daño.";
     }
 
 
     public function __tostring()
     {
-        return "El nombre del movimiento es " . $this->nombre . " y hace " . $this->poder . " de daño";
+        return "el nombre del movimiento es " . $this->nombre . " y hace " . $this->poder . " de daño";
     }
 }
 ?>
